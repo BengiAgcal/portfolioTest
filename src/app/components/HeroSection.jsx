@@ -42,7 +42,7 @@ const HeroSection = () => {
     return (
         <section ref={ref}>
 
-            <div ref={parentRef} id="hero" className='relative min-h-screen'>
+            <div ref={parentRef} id="hero" className='relative md:min-h-screen'>
                 <motion.h1 ref={childRef2}
                     className="big-text text-8xl md:text-9xl xl:text-[200px] text-center "
                     initial={{ opacity: 0}}
