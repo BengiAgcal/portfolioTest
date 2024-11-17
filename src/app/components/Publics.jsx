@@ -8,7 +8,7 @@ const Publics = () => {
             <div className="container px-0 py-2">
 
                 <Public
-                    imageSrc="/PBL/thesis.jpg"
+                    imageSrc="/PBL/Thesis.jpg"
                     alt="a Tiger"
                     title="Bonding with the screen : forming connections through digital landscapes"
                     desc="MFA Thesis - 2024"
