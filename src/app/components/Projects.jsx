@@ -29,7 +29,7 @@ const Projects = () => {
                         subtitle="3D Environmental Education Video Game (2023-2024)"
                         link="/Beaver"
                         isVideo={true}
-                        className="md:col-span-2 md:pb-[15vh]" // span 1 column
+                        className=" md:col-span-2 pb-0 md:pb-[15vh]" // span 1 column
                     />
 
 
@@ -47,7 +47,7 @@ const Projects = () => {
 
                     <Project
                         imageSrc="/HCT/dont.mp4"
-                        title="Here, They Can’t Touch Me"
+                        title="Here, They Cant Touch Me"
                         subtitle="3D Physics Simulation, Video Projection on Wooden Plinth (2023)"
                         link="/Here"
                         isVideo={true}
@@ -70,7 +70,7 @@ const Projects = () => {
                         subtitle="3D Animated Video (2021)"
                         link="/Worth"
                         isVideo={true}
-                        className="md:col-span-2 flex md:pb-[15vh]   items-center justify-center" // span 1 column
+                        className="md:col-span-2 flex md:pb-[15vh] items-center justify-center" // span 1 column
                     />
 
                 </div>

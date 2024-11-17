@@ -2,6 +2,7 @@
 "use client";
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform } from "framer-motion"
+import Image from 'next/image';
 
 
 const MovingImg = ({ imageSrc, alt }) => {
@@ -23,10 +24,13 @@ const MovingImg = ({ imageSrc, alt }) => {
 
             transition={{ duration: 2, ease: "circOut" }}>
 
-            <img
+            <Image
                 src={imageSrc} // Pass the image source as a prop
-                alt={alt} // Use title as alt text for accessibility
-                className="w-full h-auto"
+                alt={alt? alt: "Artwork Image"} // Use alt text for accessibility
+                layout="responsive" // This makes the image responsive
+                width={800} // You need a width
+                height={600} // You need a height
+                className="object-cover" // Optional: Adjust object-fit behavior
             />
 
         </motion.div>

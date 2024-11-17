@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import React from 'react';
+import Image from 'next/image';
 
 const Contact = () => {
 
@@ -20,17 +21,23 @@ const Contact = () => {
             <div className="container px-0 py-2">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-2 w-full items-center justify-center">
                     <div className='md:col-span-1 order-last md:order-1'>
-                        <motion.img
+                        <motion.div
                             initial={{ opacity: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 1, ease: "circOut" }}
                             whileInView={{ opacity: 1, }}
-                            src="/Footer.png" // Pass the image source as a prop
-                            alt="sas" // Use title as alt text for accessibility
-                            width={800}
-                            height={800}
-                            className="w-full lg:w-3/4 h-auto max-w-full"
-                        />
+                            className="w-full lg:w-3/4 h-auto max-w-full">
+                            <Image
+
+                                src="/Footer.png" // Pass the image source as a prop
+                                alt="an artwork" // Use title as alt text for accessibility
+                                layout="responsive" // This makes the image responsive
+                                width={800} // You need a width
+                                height={600} // You need a height
+                                className="object-cover"
+
+                            />
+                        </motion.div>
                     </div>
 
                     <div className='md:col-span-1 order-1 md:order-2'>
@@ -55,12 +62,13 @@ const Contact = () => {
                                 rel="noopener noreferrer"
                                 className='flex justify-center md:justify-start items-center col-span-1 p-2'
                             >
-                                <img
+                                <Image
                                     src="/LinkedIn.png"
                                     alt="LinkedIn"
-                                    width={50}
-                                    height={50}
-                                    className="w-auto h-auto max-w-full opacity-50 hover:opacity-100"
+                                    
+                                    width={75}
+                                    height={75}
+                                    className="object-cover opacity-50 hover:opacity-100"
                                 />
                             </motion.a>
                             <motion.a href="mailto:benjiagcal@gmail.com"
@@ -73,12 +81,13 @@ const Contact = () => {
                                 rel="noopener noreferrer"
                                 className='flex justify-center md:justify-start items-center col-span-1 p-2'
                             >
-                                <img
+                                <Image
                                     src="/Email.png"
                                     alt="Email"
-                                    width={50}
-                                    height={50}
-                                    className="w-auto h-auto max-w-full opacity-50 hover:opacity-100"
+                                    
+                                    width={75}
+                                    height={75}
+                                    className="object-cover opacity-50 hover:opacity-100"
                                 />
                             </motion.a>
                             <motion.a href='https://www.instagram.com/bagcal.art/'
@@ -91,12 +100,13 @@ const Contact = () => {
                                 rel="noopener noreferrer"
                                 className='flex justify-center md:justify-start items-center col-span-1 p-2'
                             >
-                                <img
+                                <Image
                                     src="/Instagram.png"
                                     alt="Instagram"
-                                    width={50}
-                                    height={50}
-                                    className="w-auto h-auto max-w-full opacity-50 hover:opacity-100"
+                                    
+                                    width={75}
+                                    height={75}
+                                    className="object-cover opacity-50 hover:opacity-100"
                                 />
                             </motion.a>
                         </div>

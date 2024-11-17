@@ -3,6 +3,7 @@ import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import * as motion from "framer-motion/client"
 import { AnimatePresence } from 'framer-motion';
+import Image from 'next/image';
 
 const Nav = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);
@@ -27,7 +28,13 @@ const Nav = () => {
                     <div className="mobile-menu items-end block md:hidden">
                         {!navbarOpen ? (
                             <button onClick={() => setNavbarOpen(true)} className="flex items-end">
-                                <img src="/Menu.png" alt="menu" className="h-6 w-6" />
+                                <Image 
+                                src="/Menu.png" 
+                                alt="menu" 
+                                width={24}
+                                height={24}
+                                priority
+                                 />
                             </button>
                         ) : (
                             <button onClick={() => setNavbarOpen(false)} className="flex h-6 w-6 small-text text-2xl font-light">
@@ -85,7 +92,7 @@ const Nav = () => {
                                 <div onClick={() => scrolltoHash('projects')} className=" cursor-pointer small-text block py-2 px-3 text-xl hover:text-gray-300">Works</div>
                                 </li>
                                 <li>
-                                <div onClick={() => scrolltoHash('public')} className=" cursor-pointer ssmall-text block py-2 px-3 text-xl hover:text-gray-300">Exhibitions & Publications</div>
+                                <div onClick={() => scrolltoHash('public')} className=" cursor-pointer small-text block py-2 px-3 text-xl hover:text-gray-300">Exhibitions & Publications</div>
                                 </li>
                                 <li>
                                     <div onClick={() => scrolltoHash('contact')} className=" cursor-pointer small-text block py-2 px-3 text-xl hover:text-gray-300">Contact</div>

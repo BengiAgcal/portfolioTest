@@ -1,6 +1,7 @@
 "use client";
 import React, { useRef, useEffect } from 'react';
-import { motion, useScroll, useTransform, useInView } from "framer-motion"
+import { motion, useScroll, useTransform, useInView } from "framer-motion";
+import Image from 'next/image';
 
 const Project = ({ imageSrc, title, subtitle, link, isVideo, className }) => {
   const ref = useRef(null)
@@ -62,10 +63,14 @@ const Project = ({ imageSrc, title, subtitle, link, isVideo, className }) => {
             Your browser does not support the video tag.
           </video>
         ) : (
-          <img
+          <Image
           src={imageSrc} // Pass the image source as a prop
           alt={title} // Use title as alt text for accessibility
-          className="w-full h-auto"
+          layout="responsive" // This makes the image responsive
+          width={800} // You need a width
+          height={600} // You need a height
+          className="object-cover" // Optional: Adjust object-fit behavior
+          priority
         />
         )}
 

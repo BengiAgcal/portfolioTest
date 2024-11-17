@@ -39,7 +39,7 @@ const Publics = () => {
                     link="https://www.artsco.ca/baibai"
                 />
                  <Public
-                    imageSrc="PBL/ice.jpg"
+                    imageSrc="/PBL/ice.jpg"
                     alt="a Tiger"
                     title="BAI BAI - FINA Gallery University of British Columbia"
                     desc="MFA Thesis Exhibition March 18th - March 23rd, 2024"
