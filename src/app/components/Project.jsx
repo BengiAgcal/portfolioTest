@@ -2,6 +2,7 @@
 import React, { useRef, useEffect } from 'react';
 import { motion, useScroll, useTransform, useInView } from "framer-motion";
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Project = ({ imageSrc, title, subtitle, link, isVideo, className }) => {
   const ref = useRef(null)
@@ -40,7 +41,7 @@ const Project = ({ imageSrc, title, subtitle, link, isVideo, className }) => {
       style={{ scale: scale}}
       transition={{ duration: 2, ease: "circOut" }}
       className={className}>
-      <a
+      <Link
 
         href={link} // Link to navigate to
         target="_blank" // Open in a new tab
@@ -79,7 +80,7 @@ const Project = ({ imageSrc, title, subtitle, link, isVideo, className }) => {
           <h1 className="desc-text text-center text-white text-xl md:text-3xl font-bold">{title}</h1>
           <h2 className="desc-text text-center text-white text-base lg:text-xl font-thin">{subtitle}</h2>
         </div>
-      </a>
+      </Link>
     </motion.div>
   );
 };
