@@ -65,7 +65,7 @@ const Nav = () => {
                 <AnimatePresence mode='popLayout'>
                     {navbarOpen ?
 
-                        <motion.div className={`absolute w-full block md:hidden flex-col items-center bg-white bg-opacity-50 z-50 `}
+                        <motion.div className={`absolute w-full block md:hidden flex-col items-centerbg-white bg-opacity-90 z-50 `}
                             initial={{
                                 y: -20,
                                 opacity: 0
@@ -84,7 +84,7 @@ const Nav = () => {
                                 opacity: 0 
                             }}
                         >
-                            <ul className={`absolute flex flex-col space-y-2 p-4  bg-white bg-opacity-50 z-10`}>
+                            <ul className={`absolute flex flex-col space-y-2 p-4  bg-white bg-opacity-90 z-10`}>
                                 <li>
                                     <div onClick={() => scrolltoHash('about')} className=" cursor-pointer small-text block py-2 px-3 text-xl hover:text-gray-300">About</div>
                                 </li>
