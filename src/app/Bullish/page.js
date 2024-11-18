@@ -56,25 +56,25 @@ export default function project() {
                         </div>
 
                         <div className="flex items-center col-span-1 p-8 ">
-                            <MovingImg imageSrc={'/Bull/gal0.jpg'} alt={"Gallery image of the artwork"} />
+                            <MovingImg imageSrc={'/Bull/gal0.webp'} alt={"Gallery image of the artwork"} />
                         </div>
                     </div>
 
                     <div className="grid grid-cols-1 lg:grid-cols-3 px-0 py-8 ">
                         <div className=" flex flex-col justify-center items-start col-span-1 px-8  ">
-                            <MovingImg imageSrc={'/Bull/bull.jpg'} alt={"Bull"} />
+                            <MovingImg imageSrc={'/Bull/bull.webp'} alt={"Bull"} />
                         </div>
                         <div className="flex flex-col justify-center items-center col-span-1  p-8 ">
                             <Text text={P12} />
                         </div>
                         <div className=" flex flex-col justify-center items-start col-span-1 px-8  ">
-                            <MovingImg imageSrc={'/Bull/buf.jpg'} alt={"Buffalo"} />
+                            <MovingImg imageSrc={'/Bull/buf.webp'} alt={"Buffalo"} />
                         </div>
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 px-0 py-8 ">
                         <div className=" flex items-center col-span-1 p-8  order-2 lg:w-4/5">
-                            <MovingImg imageSrc={"Bull/moo.jpg"} alt={"artwork image"} />
+                            <MovingImg imageSrc={"/Bull/moo.webp"} alt={"artwork image"} />
                         </div>
 
                         <div className="flex items-center col-span-1 px-8 order-1 ">
@@ -106,7 +106,7 @@ export default function project() {
 
                     <div className="grid grid-cols-1 md:grid-cols-3 px-0 py-8 ">
                         <div className=" flex items-center col-span-1  p-8 ">
-                            <MovingImg imageSrc={"Bull/QR.jpg"} alt={"QR code to the experience"} />
+                            <MovingImg imageSrc={"/Bull/QR.webp"} alt={"QR code to the experience"} />
                         </div>
 
                         <div className="flex items-center col-span-1 md:col-span-2 px-8  ">
@@ -119,7 +119,7 @@ export default function project() {
                             <Title title={"Exhibitions"} />
                         </div>
                         <div className="col-span-1  p-8  ">
-                            <Project imageSrc="/Bull/gal0.jpg" title="Assemblage: MFA Group Show" subtitle="" link="https://blogs.ubc.ca/fccsartwork/2022/11/24/assemblage/" isVideo={false} />
+                            <Project imageSrc="/Bull/gal0.webp" title="Assemblage: MFA Group Show" subtitle="" link="https://blogs.ubc.ca/fccsartwork/2022/11/24/assemblage/" isVideo={false} />
                         </div>
 
                     </div>
@@ -127,10 +127,10 @@ export default function project() {
 
                     <div className="grid grid-cols-1 justify-center items-center md:grid-cols-2 px-0 py-8 ">
                         <div className=" flex justify-start items-start col-span-1 px-8 ">
-                            <MovingImg imageSrc={"/Bull/tgt.jpg"} alt={"Bull and buffalo"} />
+                            <MovingImg imageSrc={"/Bull/tgt.webp"} alt={"Bull and buffalo"} />
                         </div>
                         <div className=" flex justify-end items-end col-span-1 px-8  md:w-4/5">
-                            <MovingImg imageSrc={"/Bull/Arss1.jpg"} alt={"Bull and buffalo"} />
+                            <MovingImg imageSrc={"/Bull/Arss1.webp"} alt={"Bull and buffalo"} />
                         </div>
 
                     </div>
