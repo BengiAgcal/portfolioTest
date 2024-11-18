@@ -1,6 +1,7 @@
 // app/layout.js
 import './globals.css'; // Your global styles
 import { Inter, Playfair_Display } from 'next/font/google';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const inter = Inter({
   subsets: ['latin'],   // Add other subsets if needed
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className={inter.className}>
       <body className={playfairDisplay.className}>
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );
