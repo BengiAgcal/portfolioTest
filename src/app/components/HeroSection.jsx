@@ -68,6 +68,7 @@ const HeroSection = () => {
                         width={800} // You need a width
                         height={600} // You need a height
                         className="object-cover" // Optional: Adjust object-fit behavior
+                        loading="eager"
                         priority
                     />
                 </motion.div>
@@ -83,6 +84,7 @@ const HeroSection = () => {
                         width={800} // You need a width
                         height={600} // You need a height
                         className="object-cover" // Optional: Adjust object-fit behavior
+                        loading="eager"
                         priority
                     />
 

@@ -16,6 +16,7 @@ const HeadImg = ({ imageSrc, alt }) => {
                 height={600} // You need a height
                 className="object-cover" // Optional: Adjust object-fit behavior
                 priority
+                loading="eager"
             />
             
         </section>

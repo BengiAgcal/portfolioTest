@@ -46,7 +46,13 @@ body {
 }
 
 .bg-grain {
- background-color: #ffffff;
+ background-color:#fffffc
+}
+.grain{
+  background-image: url('/grain.png');
+  background-size: cover;
+  background-repeat: repeat;
+  background-size: 1000px 1000px;
 }
 
 .button {
