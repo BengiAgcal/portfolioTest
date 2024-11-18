@@ -84,7 +84,7 @@ export default function project() {
                     <div className="md:py-8" />
                     <div className="grid grid-cols-1 md:grid-cols-2 px-0 py-8 ">
                         <div className=" flex items-center col-span-1 lg:w-4/5 p-8 ">
-                            <Video src={"/Bull/gallery.mp4"} />
+                            <Video src={"https://tksoio8smstmaj9d.public.blob.vercel-storage.com/gallery-jeRXz6DSQo71NR4CJWCpa3yTiO62sN.mp4"} />
 
                         </div>
 
@@ -95,7 +95,7 @@ export default function project() {
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 px-0 py-8  ">
                         <div className=" flex items-center col-span-1  p-8 order-2">
-                        <Video src={"/Bull/AR.mp4"} />
+                        <Video src={"https://tksoio8smstmaj9d.public.blob.vercel-storage.com/AR-UBBgyNmszZxnQJCUxPbW7Ua6cdCnVI.mp4"} />
                         </div>
 
                         <div className="flex items-center col-span-1 px-8  order-1">

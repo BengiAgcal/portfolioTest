@@ -55,7 +55,7 @@ const Projects = () => {
                     />
 
                     <Project
-                        imageSrc="/Bull/head.mp4"
+                        imageSrc="https://tksoio8smstmaj9d.public.blob.vercel-storage.com/head-ouQpWN9eaCtKCUkDTpynzqTYK6oH0s.mp4"
                         title="Bullish"
                         subtitle="Mixed Media Interactive Installation: Print, AR, and Found Object (2022)"
                         link="/Bullish"
