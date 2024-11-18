@@ -66,7 +66,7 @@ export default function project() {
                         </div>
                     </div>
                     <div className="md:py-8" />
-                    <MovingImg imageSrc={'/WNM/Cat.jpg'} alt={"a Cat"} />
+                    <MovingImg imageSrc={'/WNM/cat.jpg'} alt={"a Cat"} />
                     <div className="md:py-8" />
                     <div className="py-8" />
                     <div className=" flex justify-center">

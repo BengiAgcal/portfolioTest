@@ -13,7 +13,6 @@ import Video from "../components/ProjectComponents/Video";
 import Divider from "../components/Divider";
 import HeadImg from "../components/ProjectComponents/HeadImg";
 import STitle from "../components/ProjectComponents/STitle";
-import Project from "../components/Project";
 
 
 export default function project() {

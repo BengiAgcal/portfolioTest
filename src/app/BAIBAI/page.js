@@ -291,7 +291,7 @@ export default function project() {
                         </div>
 
                         <div className="flex items-center col-span-1  p-8 ">
-                            <MovingImg imageSrc={"/BAI/pretty.jpg"} alt={'two Tigers'} />
+                            <MovingImg imageSrc={"/BAI/Pretty.jpg"} alt={'artwork image'} />
 
                         </div>
                     </div>

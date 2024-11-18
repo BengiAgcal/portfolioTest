@@ -56,19 +56,19 @@ export default function project() {
                         </div>
 
                         <div className="flex items-center col-span-1 p-8 ">
-                            <MovingImg imageSrc={'/bull/gal0.jpg'} alt={"Gallery image of the artwork"} />
+                            <MovingImg imageSrc={'/Bull/gal0.jpg'} alt={"Gallery image of the artwork"} />
                         </div>
                     </div>
 
                     <div className="grid grid-cols-1 lg:grid-cols-3 px-0 py-8 ">
                         <div className=" flex flex-col justify-center items-start col-span-1 px-8  ">
-                            <MovingImg imageSrc={'/bull/bull.jpg'} alt={"Bull"} />
+                            <MovingImg imageSrc={'/Bull/bull.jpg'} alt={"Bull"} />
                         </div>
                         <div className="flex flex-col justify-center items-center col-span-1  p-8 ">
                             <Text text={P12} />
                         </div>
                         <div className=" flex flex-col justify-center items-start col-span-1 px-8  ">
-                            <MovingImg imageSrc={'/bull/buf.jpg'} alt={"Buffalo"} />
+                            <MovingImg imageSrc={'/Bull/buf.jpg'} alt={"Buffalo"} />
                         </div>
                     </div>
 
