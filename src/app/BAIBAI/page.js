@@ -14,6 +14,8 @@ import Divider from "../components/Divider";
 import HeadImg from "../components/ProjectComponents/HeadImg";
 import STitle from "../components/ProjectComponents/STitle";
 import Project from "../components/Project";
+import Loading from "../loading";
+import { Suspense } from 'react';
 
 
 export default function project() {
@@ -127,14 +129,17 @@ export default function project() {
 
 
     return (
+        <Suspense fallback={<p>Loading video...</p>}>
+                    
+                
         <ReactLenis root>
             <main className=" bg-grain flex min-h-screen flex-col bg-[#fff] ">
 
                 <PNav />
                 <Banner Title={"BAI BAI"} />
-                
-                
- <HeadImg imageSrc={"/BAI/HeaderImg.jpg"} alt={"Tiger inside the office"} />
+
+
+                <HeadImg imageSrc={"/BAI/HeaderImg.jpg"} alt={"Tiger inside the office"} />
 
                 <div className="container m-auto px-6 py-6 xl:px-12">
 
@@ -295,7 +300,7 @@ export default function project() {
 
                         </div>
                     </div>
-                    
+
 
                     <div className=" py-8 md:py-16" />
                     <MovingImg imageSrc={"/BAI/OfficeSeq.jpg"} alt={'a Tiger in an Office'} />
@@ -317,6 +322,7 @@ export default function project() {
 
             </main>
         </ReactLenis>
+        </Suspense>
     );
 }
 
