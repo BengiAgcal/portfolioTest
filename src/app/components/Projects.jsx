@@ -24,7 +24,7 @@ const Projects = () => {
                     <Empty />
                     <Empty />
                     <Project
-                        imageSrc="/BVR/Beaver.mp4"
+                        imageSrc="/BVR/dam.mp4"
                         title="Beaver World"
                         subtitle="3D Environmental Education Video Game (2023-2024)"
                         link="/Beaver"
@@ -55,7 +55,7 @@ const Projects = () => {
                     />
 
                     <Project
-                        imageSrc="https://tksoio8smstmaj9d.public.blob.vercel-storage.com/head-ouQpWN9eaCtKCUkDTpynzqTYK6oH0s.mp4"
+                        imageSrc="/Bull/head.mp4"
                         title="Bullish"
                         subtitle="Mixed Media Interactive Installation: Print, AR, and Found Object (2022)"
                         link="/Bullish"
