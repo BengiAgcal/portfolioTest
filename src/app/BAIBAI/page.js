@@ -15,7 +15,7 @@ import HeadImg from "../components/ProjectComponents/HeadImg";
 import STitle from "../components/ProjectComponents/STitle";
 import Project from "../components/Project";
 import Loading from "../loading";
-import { Suspense } from 'react';
+
 
 
 export default function project() {
@@ -129,9 +129,7 @@ export default function project() {
 
 
     return (
-        <Suspense fallback={<p>Loading video...</p>}>
-                    
-                
+        
         <ReactLenis root>
             <main className=" bg-grain flex min-h-screen flex-col bg-[#fff] ">
 
@@ -154,10 +152,14 @@ export default function project() {
                     <div className="grid grid-cols-1 md:grid-cols-2 px-0 py-16 ">
                         <div className=" flex items-center col-span-1  p-8 order-2 md:order-1 ">
                             <Text text={P1} />
+                            
                         </div>
 
                         <div className="flex items-center col-span-1  p-8 order-1">
+                        
+                          
                             <Video src={"/BAI/round.mp4"} />
+                            
                         </div>
                     </div>
 
@@ -308,6 +310,7 @@ export default function project() {
                     <MovingImg imageSrc={"/BAI/Round.jpg"} alt={'a Tiger'} />
                     <div className=" py-8 md:py-16" />
                     <MovingImg imageSrc={"/BAI/denoise6.jpg"} alt={'Tiger Sleeping'} />
+                    
 
 
 
@@ -322,7 +325,7 @@ export default function project() {
 
             </main>
         </ReactLenis>
-        </Suspense>
+        
     );
 }
 
