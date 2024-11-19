@@ -18,31 +18,31 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-playfair-display),var(--font-inter), Arial, Helvetica, sans-serif;
 }
 .big-text {
   color: #4c4b4b;
-  font-family: playfairDisplay;
+  font-family: var(--font-playfair-display);
   font-weight: 400;
 }
 
 .big-text2 {
   color: #4c4b4b;
-  font-family: playfairDisplay;
+  font-family:var(--font-playfair-display);
 }
 
 .big-text3 {
-  font-family: playfairDisplay;
+  font-family:var(--font-playfair-display);
   font-weight: 300;
 }
 
 .small-text {
   color: #1d1c1c;
-  font-family: inter;
+  font-family: var(--font-inter);
 }
 
 .desc-text {
-  font-family: inter;
+  font-family: var(--font-inter);
 }
 
 .bg-grain {
@@ -104,7 +104,7 @@ body {
 .track > h1 {
   margin: 20px 0;
   font-size: 8rem;
-  font-family: Antonio;
+  font-family: var(--font-playfair-display);
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #f4955c;

@@ -22,7 +22,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={inter.className}>
+    <html lang="en" style={{ 
+      '--font-inter': inter.style.fontFamily, 
+      '--font-playfair-display': playfairDisplay.style.fontFamily 
+    }}>
       <body className={playfairDisplay.className}>
         {children}
         <Analytics />
