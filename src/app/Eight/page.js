@@ -61,7 +61,8 @@ export default function project() {
                         </div>
 
                         <div className="flex items-center col-span-1 p-8 ">
-                            <Video src={"/T8C/Doe.mp4"} />
+                            <Video fallbackSrc={"/T8C/Doe.mp4"}
+                            src={"https://tksoio8smstmaj9d.public.blob.vercel-storage.com/T8C/Doe-HwPRxjPkNcUPOT95kzETMwaBPQNUFU.mp4"}  />
                         </div>
                     </div>
                     <div className="md:py-8" />
@@ -91,7 +92,8 @@ export default function project() {
 
                     <div className="grid grid-cols-1 lg:grid-cols-3 px-0 py-8 ">
                         <div className=" flex flex-col justify-center items-start col-span-1 p-8  ">
-                            <Video src={"/T8C/Owl.mp4"} />
+                            <Video fallbackSrc={"/T8C/Owl.mp4"} 
+                            src={"https://tksoio8smstmaj9d.public.blob.vercel-storage.com/T8C/Owl-pKBPrxcApAKoLbEvbbb1whm8W6H0dT.mp4"}/>
                         </div>
 
                         <div className="flex items-center col-span-1 lg:col-span-2 p-0 ">
@@ -138,7 +140,8 @@ export default function project() {
                         </div>
                     </div>
                     <div className="md:py-16" />
-                    <Video src={"/T8C/Deer.mp4"} />
+                    <Video fallbackSrc={"/T8C/Deer.mp4"}
+                    src={"https://tksoio8smstmaj9d.public.blob.vercel-storage.com/T8C/Deer-3dbSke1TBNatblACreW8jsPb2AlA8x.mp4"} />
                     <div className="md:py-16" />
                     <div className="grid grid-cols-1 lg:grid-cols-3 px-0 py-8 ">
                         <div className=" flex items-center justify-center col-span-1  px-0 ">
@@ -198,7 +201,8 @@ export default function project() {
                         </div>
 
                         <div className="flex items-center justify-center col-span-1  p-8  ">
-                            <Video src={"/T8C/bunny.mp4"} />
+                            <Video fallbackSrc={"/T8C/bunny.mp4"}
+                            src={"https://tksoio8smstmaj9d.public.blob.vercel-storage.com/T8C/bunny-IhEqOPdd3urH6wOxFcOGth524KKHQy.mp4"}/>
                         </div>
                     </div>
                     <div className=" py-8 md:py-16" />

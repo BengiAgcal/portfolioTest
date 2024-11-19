@@ -12,7 +12,8 @@ const Projects = () => {
                 <div className="grid grid-cols-1 md:grid-cols-3 w-full items-center justify-center ">
 
                     <Project 
-                        imageSrc="/BAI/Swim.mp4"
+                        // imageSrc="/BAI/Swim.mp4"
+                        imageSrc="https://tksoio8smstmaj9d.public.blob.vercel-storage.com/BAI/Swim-qlohO0qjePqd4CA7SiBJpwwb0QOWtw.mp4"
                         title="BAI BAI"
                         subtitle="3D Animated Projection Mapping Installation (2023-2024)"
                         link="/BAIBAI"
@@ -24,7 +25,8 @@ const Projects = () => {
                     <Empty />
                     <Empty />
                     <Project
-                        imageSrc="/BVR/dam.mp4"
+                        imageSrc="https://tksoio8smstmaj9d.public.blob.vercel-storage.com/Beaver/dam-PPP2OkjXIzBabUyJEAzbcAksmgBa42.mp4"
+                        //imageSrc="/BVR/dam.mp4"
                         title="Beaver World"
                         subtitle="3D Environmental Education Video Game (2023-2024)"
                         link="/Beaver"
@@ -34,7 +36,8 @@ const Projects = () => {
 
 
                     <Project
-                        imageSrc="/T8C/Deer2.mp4"
+                        imageSrc="https://tksoio8smstmaj9d.public.blob.vercel-storage.com/T8C/Deer2-mdv3GAxcZ3snlzdMmjzAdjiFqDqiUq.mp4"
+                        // imageSrc="/T8C/Deer2.mp4"
                         title="The 8th Continent"
                         subtitle="A video game installation on plastic pollution with participant-created voice recordings (2023)"
                         link="/Eight"
@@ -46,7 +49,8 @@ const Projects = () => {
 
 
                     <Project
-                        imageSrc="/HCT/dont.mp4"
+                        imageSrc="https://tksoio8smstmaj9d.public.blob.vercel-storage.com/HCT/dont-xqhefQcoo6IosZYYr7dyyaEGIHOlTK.mp4"
+                        //imageSrc="/HCT/dont.mp4"
                         title="Here, They Cant Touch Me"
                         subtitle="3D Physics Simulation, Video Projection on Wooden Plinth (2023)"
                         link="/Here"
@@ -55,7 +59,8 @@ const Projects = () => {
                     />
 
                     <Project
-                        imageSrc="/Bull/head.mp4"
+                        imageSrc="https://tksoio8smstmaj9d.public.blob.vercel-storage.com/Bull/head-SKNS0bEcvWLTuHyjZK7kZ21U73c15h.mp4"
+                       // imageSrc="/Bull/head.mp4"
                         title="Bullish"
                         subtitle="Mixed Media Interactive Installation: Print, AR, and Found Object (2022)"
                         link="/Bullish"
@@ -65,7 +70,8 @@ const Projects = () => {
                     <Empty />
                     <Empty />
                     <Project
-                        imageSrc="/WNM/head.mp4"
+                        imageSrc="https://tksoio8smstmaj9d.public.blob.vercel-storage.com/WNM/head-hSs9asuXCkQyiSX4KIAccdz5JUOmui.mp4"
+                        //imageSrc="/WNM/head.mp4"
                         title="Worth No More"
                         subtitle="3D Animated Video (2021)"
                         link="/Worth"

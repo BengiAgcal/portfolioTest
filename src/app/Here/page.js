@@ -21,7 +21,7 @@ export default function project() {
         "Davinci Resolve"];
 
     const P1 = "Here, They Can Not Touch Me explores the psychological distances that are constructed to protect individuals from uncomfortable realities, based on construal level theory. These distances—spatial, temporal, hypothetical, and social—are used to make certain issues seem distant or irrelevant. However, with the rise of digital spaces, a new form of virtual distance has been introduced, influencing how interactions with the world are mediated. As this new virtual distance suggests a false sense of empowerment within digital realms, the true safety of such environments is questioned. "
-    const P2 = "To explore this idea, a digital simulation was designed, and a stress test was conducted on a humanoid figure modeled with silicone-like physics. The figure was chosen to reflect personal self-reflection and the questioning of one`&apos;`s own relationship to digital spaces. The figure was exposed to wind turbulence, which symbolized real-world truths that are typically avoided. As the turbulence intensified, the limitations of the protective shield were revealed. Though designed to safeguard the figure, the shield severely restricted movement and visibility, illustrating how digital spaces and filter bubbles create a false sense of security. As the simulation progressed, the constraints were tightened, cornering the figure and further emphasizing the restrictive nature of such shields."
+    const P2 = "To explore this idea, a digital simulation was designed, and a stress test was conducted on a humanoid figure modeled with silicone-like physics. The figure was chosen to reflect personal self-reflection and the questioning of one's own relationship to digital spaces. The figure was exposed to wind turbulence, which symbolized real-world truths that are typically avoided. As the turbulence intensified, the limitations of the protective shield were revealed. Though designed to safeguard the figure, the shield severely restricted movement and visibility, illustrating how digital spaces and filter bubbles create a false sense of security. As the simulation progressed, the constraints were tightened, cornering the figure and further emphasizing the restrictive nature of such shields."
     const P3 = "The work is projected onto a wooden plinth, enhancing the digital imagery with a physical dimension. This setup merges the digital and physical worlds, making the virtual form more tangible through projection mapping. The 2D digital simulation projected onto a 3D object encourages viewers to question their perceptions, bringing the abstract concept of psychological shielding into a shared physical space."
 
 
@@ -65,7 +65,7 @@ export default function project() {
                         </div>
 
                         <div className="flex flex-col justify-center items-center col-span-1 lg:col-span-2 p-8 ">
-                            <h1 className="big-text2  italic text-3xl md:text-5xl font-light text-center"> `&quot;`In my 4x3 they can`&apos;`t get to me, free to roam all over my cyber fantasy`&quot;` </h1>
+                            <h1 className="big-text2  italic text-3xl md:text-5xl font-light text-center"> &quot;In my 4x3 they can&apos;t get to me, free to roam all over my cyber fantasy&quot; </h1>
                             <h2 className="small-text text-xl md:text-2xl font-light pt-4 text-center">-Rina Sawayama </h2>
 
                         </div>
@@ -73,7 +73,8 @@ export default function project() {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 px-0 py-8 ">
                         <div className=" flex items-center col-span-1  p-8  order-2">
-                            <Video src={"/HCT/good.mp4"} />
+                            <Video fallbackSrc={"/HCT/good.mp4"} 
+                            src={"https://tksoio8smstmaj9d.public.blob.vercel-storage.com/HCT/good-XwfNz1gQJP8LVBD1KIdvQfojJ06hVK.mp4"} />
                         </div>
 
                         <div className="flex items-center col-span-1 px-8 order-1 ">
@@ -82,7 +83,8 @@ export default function project() {
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 px-0 py-8 ">
                         <div className=" flex items-center col-span-1  p-8 ">
-                            <Video src={"/HCT/turn.mp4"} />
+                            <Video fallbackSrc={"/HCT/turn.mp4"}
+                            src={"https://tksoio8smstmaj9d.public.blob.vercel-storage.com/HCT/turn-TPIkpjIfImrMxYDyrG4zw93Wzf7eTe.mp4"} />
                         </div>
 
                         <div className="flex items-center col-span-1 px-8  ">

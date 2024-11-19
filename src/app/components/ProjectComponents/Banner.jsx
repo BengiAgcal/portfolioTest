@@ -22,7 +22,7 @@ const Banner = ({Title}) => {
 
     return (
         <div>
-            <div className=" relative w-full h-[120px] lg:h-[170px] overflow-hidden">
+            <div className=" relative w-full h-[120px] lg:h-[200px] overflow-hidden">
                 {/* 3. Using framer motion */}
                 <motion.div
                     className="absolute whitespace-nowrap"

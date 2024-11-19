@@ -71,7 +71,7 @@ export default function project() {
 
                 <PNav />
                 <Banner Title={"BEAVER WORLD"} />
-
+                
 
                 <HeadImg imageSrc={"/BVR/swim2.jpg"} alt={"Beaver Swimming"} />
 
@@ -97,7 +97,8 @@ export default function project() {
                     <div className="md:py-8" />
                     <div className="grid grid-cols-1 md:grid-cols-2 px-0 py-8 ">
                         <div className=" flex items-center col-span-1  p-8  ">
-                            <Video src={"/BVR/dam.mp4"} />
+                            <Video fallbackSrc={"/BVR/dam.mp4"}
+                            src={"https://tksoio8smstmaj9d.public.blob.vercel-storage.com/Beaver/dam-PPP2OkjXIzBabUyJEAzbcAksmgBa42.mp4"} />
                         </div>
 
                         <div className="flex items-center col-span-1 px-8 ">
@@ -144,7 +145,8 @@ export default function project() {
                     <div className="md:py-8" />
                     <div className="grid grid-cols-1 lg:grid-cols-3 px-0 md:py-8 ">
                         <div className="flex items-center col-span-1  lg:col-span-2 p-8 ">
-                            <Video src={"/BVR/swim.mp4"} />
+                            <Video fallbackSrc={"/BVR/swim.mp4"}
+                            src={"https://tksoio8smstmaj9d.public.blob.vercel-storage.com/Beaver/swim-YW11OytHXCrvkMhhsjC9JUqOcsTbq5.mp4"}  />
                         </div>
                         <div className=" flex flex-col items-center justify-center col-span-1 p-8 ">
                             <Title title={"Dev Tools and Techniques"} />

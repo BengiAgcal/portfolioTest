@@ -6,13 +6,11 @@ import PNav from "../components/ProjectComponents/PNav";
 import Banner from "../components/ProjectComponents/Banner";
 import Text from "../components/ProjectComponents/Text";
 import ProjectDetails from "../components/ProjectComponents/ProjectDetails";
-import ParallaxGallery from "../components/ProjectComponents/ParallaxGallery";
 import MovingImg from "../components/ProjectComponents/MovingImg";
 import Title from "../components/ProjectComponents/Title";
 import Video from "../components/ProjectComponents/Video";
 import Divider from "../components/Divider";
 import HeadImg from "../components/ProjectComponents/HeadImg";
-import STitle from "../components/ProjectComponents/STitle";
 import Project from "../components/Project";
 
 
@@ -84,7 +82,8 @@ export default function project() {
                     <div className="md:py-8" />
                     <div className="grid grid-cols-1 md:grid-cols-2 px-0 py-8 ">
                         <div className=" flex items-center col-span-1 lg:w-4/5 p-8 ">
-                            <Video src={"/Bull/gallery.mp4"} />
+                            <Video fallbackSrc={"/Bull/gallery.mp4"} 
+                            src={"https://tksoio8smstmaj9d.public.blob.vercel-storage.com/Bull/gallery-DQCZuWltiIRrUzSFCfMJk3y0beHLS5.mp4"}/>
 
                         </div>
 
@@ -95,7 +94,8 @@ export default function project() {
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 px-0 py-8  ">
                         <div className=" flex items-center col-span-1  p-8 order-2">
-                        <Video src={"/Bull/AR.mp4"} />
+                        <Video fallbackSrc={"/Bull/AR.mp4"} 
+                        src={"https://tksoio8smstmaj9d.public.blob.vercel-storage.com/Bull/AR-5aPF7IHEPgMJXHdR3eXy9kIpc2g7uE.mp4"}/>
                         </div>
 
                         <div className="flex items-center col-span-1 px-8  order-1">

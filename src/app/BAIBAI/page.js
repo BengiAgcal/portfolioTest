@@ -61,7 +61,8 @@ export default function project() {
 
     const imageArray2 = [
         {
-            src: "/BAI/ProjectorRound.mp4",  // Image resource
+            src: "https://tksoio8smstmaj9d.public.blob.vercel-storage.com/BAI/ProjectorRound-dsdgNoFCZvGupAChXdC1DfS2Mgv08u.mp4",
+            //"/BAI/ProjectorRound.mp4",  // Image resource
             start: -280,                // First number (e.g., width)
             end: 225, isVideo: true                  // Second number (e.g., height)
         },
@@ -81,12 +82,14 @@ export default function project() {
             end: -150, isVideo: false                // Second number (e.g., height)
         },
         {
-            src: "/BAI/ProjectorTable.mp4",
+            src: "https://tksoio8smstmaj9d.public.blob.vercel-storage.com/BAI/ProjectorTable-Lf5SYQijtNXzxPe1rxChvHC0RddgME.mp4",
+            //"/BAI/ProjectorTable.mp4",
             start: -175,                // First number (e.g., width)
             end: 50, isVideo: true
         },
         {
-            src: "/BAI/ProjectorT.mp4",
+            src: "https://tksoio8smstmaj9d.public.blob.vercel-storage.com/BAI/ProjectorT-BzggIQ7WkDG24vTFSDswLw7bAtT8yF.mp4",
+            //"/BAI/ProjectorT.mp4",
             start: 100,                // First number (e.g., width)
             end: -125, isVideo: true
         }
@@ -94,12 +97,14 @@ export default function project() {
 
     const imageArray3 = [
         {
-            src: "/BAI/sculpt0.mp4",  // Image resource
+            src: "https://tksoio8smstmaj9d.public.blob.vercel-storage.com/BAI/sculpt0-hIf4dZepKrIyP1fSzbb8tV8AU3u5jx.mp4",
+            //"/BAI/sculpt0.mp4",  // Image resource
             start: -280,                // First number (e.g., width)
             end: 225, isVideo: true                  // Second number (e.g., height)
         },
         {
-            src: "/BAI/sculpt.mp4",
+            src: "https://tksoio8smstmaj9d.public.blob.vercel-storage.com/BAI/sculpt-8uAEo9GKWtrQH8E0epHqOitWGQtmAS.mp4",
+            //"/BAI/sculpt.mp4",
             start: 255,                // First number (e.g., width)
             end: -150, isVideo: true
         },
@@ -119,7 +124,8 @@ export default function project() {
             end: 50, isVideo: false
         },
         {
-            src: "/BAI/sculpt4.mp4",
+            src: "https://tksoio8smstmaj9d.public.blob.vercel-storage.com/BAI/sculpt4-QBHWQGqhNBi9n0ReiP3GxTHtm96vuR.mp4",
+            //"/BAI/sculpt4.mp4",
             start: 100,                // First number (e.g., width)
             end: -125, isVideo: true
         }
@@ -135,6 +141,7 @@ export default function project() {
 
                 <PNav />
                 <Banner Title={"BAI BAI"} />
+                
 
 
                 <HeadImg imageSrc={"/BAI/HeaderImg.jpg"} alt={"Tiger inside the office"} />
@@ -158,7 +165,8 @@ export default function project() {
                         <div className="flex items-center col-span-1  p-8 order-1">
                         
                           
-                            <Video src={"/BAI/round.mp4"} />
+                            <Video src={"https://tksoio8smstmaj9d.public.blob.vercel-storage.com/BAI/round-MiT7CHPyxKzlX5VkEst2dh2QhUUsjy.mp4"} 
+                            fallbackSrc={"/BAI/round.mp4"} />
                             
                         </div>
                     </div>
@@ -188,7 +196,9 @@ export default function project() {
 
                     <div className="grid grid-cols-1 md:grid-cols-3 px-0 py-16">
                         <div className=" flex items-center col-span-1  p-4 ">
-                            <Video src="/BAI/Pattern.mp4" />
+                            <Video 
+                            fallbackSrc="/BAI/Pattern.mp4"
+                            src="https://tksoio8smstmaj9d.public.blob.vercel-storage.com/BAI/Pattern-iUih8RSto0hbtgJFIEA2OzQGFinZSO.mp4" />
                         </div>
 
                         <div className=" flex items-center justify-center col-span-1  p-4 ">
@@ -196,7 +206,9 @@ export default function project() {
                         </div>
 
                         <div className="flex items-center col-span-1  p-4 ">
-                            <Video src="/BAI/TextureE.mp4" />
+                            <Video 
+                            fallbackSrc="/BAI/TextureE.mp4"
+                            src="https://tksoio8smstmaj9d.public.blob.vercel-storage.com/BAI/TextureE-2b3uV2T6zPQlJ0HOXsvWBCAvfKduIK.mp4" />
                         </div>
                     </div>
 
@@ -207,7 +219,9 @@ export default function project() {
                         </div>
 
                         <div className="flex items-center col-span-1  p-8  order-1">
-                            <Video src={"/BAI/CarRunning.mp4"} />
+                            <Video 
+                            fallbackSrc={"/BAI/CarRunning.mp4"} 
+                            src={"https://tksoio8smstmaj9d.public.blob.vercel-storage.com/BAI/CarRunning-M7nNPZJBlE3VQFXpcCKgJ4DVpkWflo.mp4"} />
                         </div>
                     </div>
 
@@ -247,7 +261,9 @@ export default function project() {
                         </div>
 
                         <div className="flex items-center col-span-1 lg:col-span-2 p-8  order-1">
-                            <Video src={"/BAI/ProjectorFloor.mp4"} />
+                            <Video 
+                            fallbackSrc={"/BAI/ProjectorFloor.mp4"}
+                            src={"https://tksoio8smstmaj9d.public.blob.vercel-storage.com/BAI/ProjectorFloor-Q6XSwH3h0C7xTnaneNcve4xshInbgx.mp4"} />
 
                         </div>
                     </div>
