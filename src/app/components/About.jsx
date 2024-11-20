@@ -42,7 +42,7 @@ const About = () => {
                     {/* <Video src={'about.mp4'} /> */}
                     <Video 
                     fallbackSrc={'about.mp4'}
-                    src={"https://tksoio8smstmaj9d.public.blob.vercel-storage.com/about-fOtwrU29kzUoRDXA3aiw3YOdsEyIbc.mp4"} />
+                    src={"https://t=ksoio8smstmaj9d.public.blob.vercel-storage.com/about-fOtwrU29kzUoRDXA3aiw3YOdsEyIbc.mp4"} />
                 </div>
             </motion.div>
         </section>
