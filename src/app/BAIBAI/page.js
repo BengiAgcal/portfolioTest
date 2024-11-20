@@ -77,7 +77,7 @@ export default function project() {
             end: 125, isVideo: false
         },
         {
-            src: "/BAI/ProjectorMAin.jpg",// Image resource
+            src: "/BAI/ProjectorMAin.webp",// Image resource
             start: 250,                // First number (e.g., width)
             end: -150, isVideo: false                // Second number (e.g., height)
         },
@@ -114,7 +114,7 @@ export default function project() {
             end: 125, isVideo: false
         },
         {
-            src: "/BAI/sculpt2.jpg",// Image resource
+            src: "/BAI/sculpt2.webp",// Image resource
             start: 250,                // First number (e.g., width)
             end: -150, isVideo: false                // Second number (e.g., height)
         },
@@ -144,7 +144,7 @@ export default function project() {
                 
 
 
-                <HeadImg imageSrc={"/BAI/HeaderImg.jpg"} alt={"Tiger inside the office"} />
+                <HeadImg imageSrc={"/BAI/HeaderImg.webp"} alt={"Tiger inside the office"} />
 
                 <div className="container m-auto px-6 py-6 xl:px-12">
 
@@ -247,12 +247,12 @@ export default function project() {
                         </div>
 
                         <div className="flex items-center col-span-1  p-8 ">
-                            <MovingImg imageSrc={"/BAI/EnvBath.jpg"} alt={'Tiger in a bath'} />
+                            <MovingImg imageSrc={"/BAI/EnvBath.webp"} alt={'Tiger in a bath'} />
                         </div>
                     </div>
 
                     <div className="md:py-8" />
-                    <MovingImg imageSrc={"/BAI/Metro.jpg"} alt={'a Tiger in a Metro'} />
+                    <MovingImg imageSrc={"/BAI/Metro.webp"} alt={'a Tiger in a Metro'} />
                     <div className="md:py-8" />
 
                     <div className="grid grid-cols-1 lg:grid-cols-3 px-0 py-16 ">
@@ -292,7 +292,7 @@ export default function project() {
                         </div>
                     </div>
 
-                    <MovingImg imageSrc={"/BAI/GalleryView.jpg"} />
+                    <MovingImg imageSrc={"/BAI/GalleryView.webp"} />
 
                     <div className="grid grid-cols-1 lg:grid-cols-3 px-0 pt-16 ">
                         <div className="flex items-center justify-center col-span-1  p-8  ">
@@ -310,7 +310,7 @@ export default function project() {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 px-0 py-16 order-2">
                         <div className=" flex items-center col-span-1  p-8 ">
-                            <MovingImg imageSrc={"/BAI/still5.jpg"} alt={'two Tigers'} />
+                            <MovingImg imageSrc={"/BAI/still5.webp"} alt={'two Tigers'} />
                         </div>
 
                         <div className="flex items-center col-span-1  p-8 ">
@@ -321,9 +321,9 @@ export default function project() {
 
 
                     <div className=" py-8 md:py-16" />
-                    <MovingImg imageSrc={"/BAI/OfficeSeq.jpg"} alt={'a Tiger in an Office'} />
+                    <MovingImg imageSrc={"/BAI/OfficeSeq.webp"} alt={'a Tiger in an Office'} />
                     <div className=" py-8 md:py-16" />
-                    <MovingImg imageSrc={"/BAI/Round.jpg"} alt={'a Tiger'} />
+                    <MovingImg imageSrc={"/BAI/Round.webp"} alt={'a Tiger'} />
                     <div className=" py-8 md:py-16" />
                     <MovingImg imageSrc={"/BAI/denoise6.jpg"} alt={'Tiger Sleeping'} />
                     
