@@ -35,7 +35,7 @@ export default function project() {
                 <Banner Title={"HERE THEY CAN NOT TOUCH ME"} />
 
 
-                <HeadImg imageSrc={"/HCT/main.jpg"} alt={"3D renders of the artwork"} />
+                <HeadImg imageSrc={"/HCT/main.webp"} alt={"3D renders of the artwork"} />
 
                 <div className="container m-auto px-6 py-6 xl:px-12">
 
@@ -55,13 +55,13 @@ export default function project() {
                         </div>
 
                         <div className="flex items-center col-span-1 p-8 ">
-                            <MovingImg imageSrc={'/HCT/box.jpg'} alt={"A woman in a glass box"} />
+                            <MovingImg imageSrc={'/HCT/box.webp'} alt={"A woman in a glass box"} />
                         </div>
                     </div>
 
                     <div className="grid grid-cols-1 lg:grid-cols-3 px-0 py-8 ">
                         <div className=" flex flex-col justify-center items-start col-span-1 px-8  ">
-                            <MovingImg imageSrc={'/HCT/back.jpg'} alt={"Gallery Installation"} />
+                            <MovingImg imageSrc={'/HCT/back.webp'} alt={"Gallery Installation"} />
                         </div>
 
                         <div className="flex flex-col justify-center items-center col-span-1 lg:col-span-2 p-8 ">
@@ -111,7 +111,7 @@ export default function project() {
                             <Title title={"Exhibitions"} />
                         </div>
                         <div className="col-span-1  p-8  ">
-                            <Project imageSrc="/HCT/install.jpg" title="Assemblage II: MFA Group Show" subtitle="" link="https://blogs.ubc.ca/fccsartwork/2023/05/03/assemblage-ii-mfa/" isVideo={false} />
+                            <Project imageSrc="/HCT/install.webp" title="Assemblage II: MFA Group Show" subtitle="" link="https://blogs.ubc.ca/fccsartwork/2023/05/03/assemblage-ii-mfa/" isVideo={false} />
                         </div>
 
                     </div>
@@ -119,12 +119,12 @@ export default function project() {
 
                     <div className="grid grid-cols-1 justify-start items-start md:grid-cols-2 px-0 py-8 ">
                         <div className=" flex flex-col justify-center items-center col-span-1  px-8 ">
-                            <MovingImg imageSrc={"/HCT/test.jpg"} alt={"Projection mapping testing"} />
+                            <MovingImg imageSrc={"/HCT/test.webp"} alt={"Projection mapping testing"} />
                             <h2 className="small-text text-xl md:text-2xl font-light pt-4 text-center">Projection Mapping Test on Plastic Bag </h2>
                         </div>
 
                         <div className="flex justify-start items-start col-span-1 px-8  ">
-                            <MovingImg imageSrc={"/HCT/box2.jpg"} alt={"Artwork image"} />
+                            <MovingImg imageSrc={"/HCT/box2.webp"} alt={"Artwork image"} />
                         </div>
                     </div>
 
