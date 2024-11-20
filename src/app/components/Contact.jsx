@@ -29,7 +29,7 @@ const Contact = () => {
                             className="w-full lg:w-3/4 h-auto max-w-full">
                             <Image
 
-                                src="/Footer.png" // Pass the image source as a prop
+                                src="/Footer.webp" // Pass the image source as a prop
                                 alt="an artwork" // Use title as alt text for accessibility
                                 layout="responsive" // This makes the image responsive
                                 width={800} // You need a width

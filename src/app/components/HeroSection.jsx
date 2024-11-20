@@ -62,7 +62,7 @@ const HeroSection = () => {
 
                 >
                     <Image
-                        src="/StarTiger.png"
+                        src="/StarTiger.webp"
                         alt="Picture of a Star"
                         layout="responsive" // This makes the image responsive
                         width={800} // You need a width
@@ -78,7 +78,7 @@ const HeroSection = () => {
                     animate={isInView ? { opacity: 1, transform: "translateY(0px) translateX(-50%)" } : {}}
                     transition={{ delay: 0, duration: 1.5, ease: "easeOut" }} >
                     <Image
-                        src="/Poster.png"
+                        src="/Poster.webp"
                         alt="Picture of a Tiger"
                         layout="responsive" // This makes the image responsive
                         width={800} // You need a width

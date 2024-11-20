@@ -20,7 +20,7 @@ const Divider = () => {
                 <div className='w-4/5'>
                     <motion.div style={{ rotate, opacity: 0.75 }}>
                         <Image
-                            src='/StarDiv.png'
+                            src='/StarDiv.webp'
                             alt='star'
                             layout="responsive"
                             width={75}

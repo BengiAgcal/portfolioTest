@@ -16,7 +16,7 @@ const Publics = () => {
                 />
 
                 <Public
-                    imageSrc="/BVR/swim.webp"
+                    imageSrc="/BVR/swim.jpg"
                     alt="A beaver"
                     title="Designing a Serious Game Utilizing Beaver Behavior for Water Responsibility"
                     desc="International Symposium on Electronic Art (ISEA) Conference 2024, Full Paper, Brisbane Australia, June 21-29, 2024 "
