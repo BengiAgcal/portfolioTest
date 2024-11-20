@@ -1,11 +1,10 @@
 "use client";
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useRef, useEffect} from 'react';
 import { motion, useScroll, useTransform, useInView } from "framer-motion";
 
 const Video = ({ src, fallbackSrc }) => {
     const videoRef = useRef(null);
     const containerRef = useRef(null);
-    // const [currentSrc, setCurrentSrc] = useState(src); // Manage the current source state
 
     // Check if video is in view
     const isInView = useInView(videoRef, { amount: 0.2 }); // Trigger when 20% of the video is in view
@@ -27,12 +26,6 @@ const Video = ({ src, fallbackSrc }) => {
     });
     const scale = useTransform(scrollYProgress, [0, 1], [0.9, 1]);
 
-    // const handleVideoError = () => {
-    //     // Switch to fallback source if the main source fails
-    //     if (fallbackSrc) {
-    //         setCurrentSrc(fallbackSrc);
-    //     }
-    // };
 
     return (
         <motion.div
@@ -42,12 +35,10 @@ const Video = ({ src, fallbackSrc }) => {
         >
             <video
                 ref={videoRef}
-                //src={currentSrc} // Use the state-managed source
                 autoPlay
                 loop
                 muted
                 playsInline
-                // onError={handleVideoError} // Handle errors
                 className="w-full h-auto"
             >
                 <source src={src} type="video/mp4" />
