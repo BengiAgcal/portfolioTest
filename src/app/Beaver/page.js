@@ -40,7 +40,7 @@ export default function project() {
             end: -150, isVideo: false
         },
         {
-            src: "/BVR/p3.jpg",
+            src: "/BVR/p3.webp",
             start: -20,                // First number (e.g., width)
             end: 125, isVideo: false
         },
@@ -55,7 +55,7 @@ export default function project() {
             end: 350, isVideo: false
         },
         {
-            src: "/BVR/p6.jpg",
+            src: "/BVR/p6.webp",
             start: 100,                // First number (e.g., width)
             end: -125, isVideo: false
         }
@@ -91,7 +91,7 @@ export default function project() {
                         </div>
 
                         <div className="flex items-center col-span-1 p-8 ">
-                            <MovingImg imageSrc={'/BVR/walk.jpg'} alt={"Beaver Walking"} />
+                            <MovingImg imageSrc={'/BVR/walk.webp'} alt={"Beaver Walking"} />
                         </div>
                     </div>
                     <div className="md:py-8" />
@@ -119,7 +119,7 @@ export default function project() {
                     <div className="md:py-8" />
                     <div className="grid grid-cols-1 lg:grid-cols-3 px-0 py-8 ">
                         <div className="flex items-center col-span-1 lg:col-span-2 p-8 md:p-0 ">
-                            <MovingImg imageSrc={"/BVR/envr0.jpg"} />
+                            <MovingImg imageSrc={"/BVR/envr0.webp"} />
                         </div>
                         <div className=" flex flex-col justify-center items-start col-span-1 px-8  ">
                             <STitle title={"Contributors"} />
@@ -141,7 +141,7 @@ export default function project() {
                         </div>
                     </div>
                     <div className="md:py-8" />
-                    <MovingImg imageSrc={'/BVR/lvl2.jpg'} alt={"Beaver Walking"} />
+                    <MovingImg imageSrc={'/BVR/lvl2.webp'} alt={"Beaver Walking"} />
                     <div className="md:py-8" />
                     <div className="grid grid-cols-1 lg:grid-cols-3 px-0 md:py-8 ">
                         <div className="flex items-center col-span-1  lg:col-span-2 p-8 ">
@@ -192,7 +192,7 @@ export default function project() {
                         </div>
 
                         <div className="flex items-center col-span-1 lg:col-span-2 p-0 order-1">
-                            <MovingImg imageSrc={"/BVR/envr.jpg"} alt={"environment"}/>
+                            <MovingImg imageSrc={"/BVR/envr.webp"} alt={"environment"}/>
                         </div>
                     </div>
 
@@ -211,6 +211,9 @@ export default function project() {
                     </div>
                     <div className="p-8" />
                     <MovingImg imageSrc={"/BVR/walk1.jpg"} alt={"A game screenshot"} />
+                    <div className="md:py-8" />
+                    <div className="p-8" />
+                    <MovingImg imageSrc={"/BVR/swim3.webp"} alt={"A game screenshot"} />
                     <div className="md:py-8" />
 
                     
