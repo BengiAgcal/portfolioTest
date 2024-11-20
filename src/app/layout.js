@@ -17,7 +17,10 @@ const playfairDisplay = Playfair_Display({
 
 export const metadata = {
   title: 'Bengi Agcal',
-  description: 'Portfolio',
+  description: 'Developer, Designer, Artist',
+  icons: {
+    icon: "/icon.png", 
+  },
 };
 
 export default function RootLayout({ children }) {
