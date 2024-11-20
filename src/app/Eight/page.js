@@ -42,7 +42,7 @@ export default function project() {
                 <Banner Title={"THE 8TH CONTINENT"} />
 
 
-                <HeadImg imageSrc={"/T8C/header.jpg"} alt={"People interacting with a large screen"} />
+                <HeadImg imageSrc={"/T8C/header.webp"} alt={"People interacting with a large screen"} />
 
                 <div className="container m-auto px-6 py-6 xl:px-12">
 
@@ -68,7 +68,7 @@ export default function project() {
                     <div className="md:py-8" />
                     <div className="grid grid-cols-1 md:grid-cols-2 px-0 py-8 ">
                         <div className=" flex items-center col-span-1  p-8  ">
-                            <MovingImg imageSrc={"/T8C/end0.jpg"} />
+                            <MovingImg imageSrc={"/T8C/end0.webp"} />
                         </div>
 
                         <div className="flex items-center col-span-1 px-8 ">
@@ -76,7 +76,7 @@ export default function project() {
                         </div>
                     </div>
                     <div className="md:py-8" />
-                    <MovingImg imageSrc={"/T8C/end1.jpg"} />
+                    <MovingImg imageSrc={"/T8C/end1.webp"} />
                     <div className="md:py-8" />
 
                     <div className="grid grid-cols-1 md:grid-cols-2 px-0 py-8 ">
@@ -86,7 +86,7 @@ export default function project() {
                         </div>
 
                         <div className="flex items-center col-span-1 p-0 md:p-20 ">
-                            <MovingImg imageSrc={"/T8C/record.jpg"} />
+                            <MovingImg imageSrc={"/T8C/record.webp"} />
                         </div>
                     </div>
 
@@ -97,7 +97,7 @@ export default function project() {
                         </div>
 
                         <div className="flex items-center col-span-1 lg:col-span-2 p-0 ">
-                            <MovingImg imageSrc={"/T8C/ani2.jpg"} />
+                            <MovingImg imageSrc={"/T8C/ani2.webp"} />
                         </div>
                     </div>
 
@@ -109,7 +109,7 @@ export default function project() {
                         </div>
 
                         <div className="flex items-center col-span-1 lg:col-span-2 p-0 ">
-                            <MovingImg imageSrc={"/T8C/vems.jpg"} />
+                            <MovingImg imageSrc={"/T8C/vems.webp"} />
                         </div>
                     </div>
 
@@ -123,7 +123,7 @@ export default function project() {
                         </div>
 
                         <div className="flex items-center col-span-1 lg:col-span-2 p-0 order-1">
-                            <MovingImg imageSrc={"/T8C/screen.jpg"} />
+                            <MovingImg imageSrc={"/T8C/screen.webp"} />
                         </div>
                     </div>
 
@@ -136,7 +136,7 @@ export default function project() {
                         </div>
 
                         <div className="flex items-center col-span-1 lg:col-span-2 p-0 ">
-                            <MovingImg imageSrc={"/T8C/screen2.jpg"} />
+                            <MovingImg imageSrc={"/T8C/screen2.webp"} />
                         </div>
                     </div>
                     <div className="md:py-16" />
@@ -149,7 +149,7 @@ export default function project() {
                         </div>
 
                         <div className="flex items-center col-span-1  lg:col-span-2 p-8 ">
-                            <MovingImg imageSrc={"/T8C/island.jpg"} alt={'a island'} />
+                            <MovingImg imageSrc={"/T8C/island.webp"} alt={'a island'} />
                         </div>
                     </div>
                     <div className="md:py-8" />
@@ -160,12 +160,12 @@ export default function project() {
                         </div>
 
                         <div className="flex items-center col-span-1 lg:col-span-2 p-8 order-1 ">
-                            <MovingImg imageSrc={"/T8C/old.jpg"} />
+                            <MovingImg imageSrc={"/T8C/old.webp"} />
                         </div>
                     </div>
 
                     <div className="md:py-8" />
-                    <MovingImg imageSrc={"/T8C/island2.jpg"} />
+                    <MovingImg imageSrc={"/T8C/island2.webp"} />
                     <div className="md:py-8" />
 
 
@@ -176,7 +176,7 @@ export default function project() {
                         </div>
 
                         <div className="flex items-center justify-center col-span-1  p-8  ">
-                            <MovingImg imageSrc={"/T8C/bottle.jpg"} />
+                            <MovingImg imageSrc={"/T8C/bottle.webp"} />
                         </div>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 px-0 py-8 ">
@@ -186,12 +186,12 @@ export default function project() {
                         </div>
 
                         <div className="flex items-center justify-center col-span-1  p-8 order-1 ">
-                            <MovingImg imageSrc={"/T8C/ter1.jpg"} />
+                            <MovingImg imageSrc={"/T8C/ter1.webp"} />
                         </div>
                     </div>
 
                     <div className="md:py-8" />
-                    <MovingImg imageSrc={"/T8C/ter2.jpg"} />
+                    <MovingImg imageSrc={"/T8C/ter2.webp"} />
                     <div className="md:py-8" />
 
                     <div className="grid grid-cols-1 md:grid-cols-2 px-0 py-8 ">
@@ -206,7 +206,7 @@ export default function project() {
                         </div>
                     </div>
                     <div className=" py-8 md:py-16" />
-                    <MovingImg imageSrc={"/T8C/sign.jpg"} />
+                    <MovingImg imageSrc={"/T8C/sign.webp"} />
                     <div className=" py-8 md:py-16" />
                     <div className=" flex justify-center">
                     <Title title={"Game Play"} />
@@ -222,9 +222,9 @@ export default function project() {
                     </div>
                 
                     <div className=" py-8 md:py-16" />
-                    <MovingImg imageSrc={"/T8C/ani0.jpg"} />
+                    <MovingImg imageSrc={"/T8C/ani0.webp"} />
                     <div className=" py-8 md:py-16" />
-                    <MovingImg imageSrc={"/T8C/end2.jpg"} />
+                    <MovingImg imageSrc={"/T8C/end2.webp"} />
                     <div className=" py-8 md:py-16" />
 
 
