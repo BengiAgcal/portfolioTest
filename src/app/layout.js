@@ -19,7 +19,7 @@ export const metadata = {
   title: 'Bengi Agcal',
   description: 'Developer, Designer, Artist',
   icons: {
-    icon: "/icon.png", 
+    icon: "/favicon.png", 
   },
 };
 

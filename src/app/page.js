@@ -15,7 +15,7 @@ export default function Home() {
   
   return (
     <ReactLenis root>
-      <link rel="icon" href="/icon.png" />
+      <link rel="icon" href="/favicon.png" />
     <main className=" bg-grain flex min-h-screen flex-col bg-[#fff] ">
       <div className="container m-auto px-12 py-0 lg:px-24">
         
