@@ -41,7 +41,7 @@ const Contact = () => {
                     </div>
 
                     <div className='md:col-span-1 order-1 md:order-2'>
-                        <div className='big-text2 text-7xl lg:text-9xl text-center md:text-left '>
+                        <div className='big-text2 text-5xl lg:text-8xl text-center md:text-left '>
                             <span className='font-light'>
                                 Let&apos;s <br />
                             </span>
