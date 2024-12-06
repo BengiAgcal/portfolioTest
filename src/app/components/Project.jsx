@@ -4,7 +4,7 @@ import { motion, useScroll, useTransform, useInView } from "framer-motion";
 import Image from 'next/image';
 import Link from 'next/link';
 
-const Project = ({ imageSrc, title, subtitle, link, isVideo, className }) => {
+const Project = ({ imageSrc, title, subtitle, link, isVideo, className , fallbackSrc }) => {
   const ref = useRef(null)
   const { scrollYProgress } = useScroll(
     {
@@ -61,6 +61,7 @@ const Project = ({ imageSrc, title, subtitle, link, isVideo, className }) => {
             className="w-full h-auto" // Ensure z-0 is on the video
           >
             <source src={imageSrc} type="video/mp4" />
+            <source src={fallbackSrc} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         ) : (

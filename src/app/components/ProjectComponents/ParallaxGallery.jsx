@@ -30,6 +30,7 @@ const ParallaxGallery = ({ paralImgs }) => {
                             start={item.start}
                             end = {item.end}
                             isVideo = {item.isVideo}
+                            fallbackSrc = {item.fallbackSrc}
 
                         />)
 

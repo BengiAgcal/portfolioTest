@@ -14,7 +14,6 @@ import Divider from "../components/Divider";
 import HeadImg from "../components/ProjectComponents/HeadImg";
 import STitle from "../components/ProjectComponents/STitle";
 import Project from "../components/Project";
-import Loading from "../loading";
 
 
 
@@ -62,9 +61,10 @@ export default function project() {
     const imageArray2 = [
         {
             src: "https://tksoio8smstmaj9d.public.blob.vercel-storage.com/BAI/ProjectorRound-dsdgNoFCZvGupAChXdC1DfS2Mgv08u.mp4",
+            fallbackSrc: "/BAI/ProjectorRound.mp4",
             //"/BAI/ProjectorRound.mp4",  // Image resource
             start: -280,                // First number (e.g., width)
-            end: 225, isVideo: true                  // Second number (e.g., height)
+            end: 225, isVideo: true ,                 // Second number (e.g., height)
         },
         {
             src: "/BAI/ProjectorExhibit.jpg",
@@ -83,12 +83,14 @@ export default function project() {
         },
         {
             src: "https://tksoio8smstmaj9d.public.blob.vercel-storage.com/BAI/ProjectorTable-Lf5SYQijtNXzxPe1rxChvHC0RddgME.mp4",
+            fallbackSrc: "/BAI/ProjectorTable.mp4",
             //"/BAI/ProjectorTable.mp4",
             start: -175,                // First number (e.g., width)
             end: 50, isVideo: true
         },
         {
             src: "https://tksoio8smstmaj9d.public.blob.vercel-storage.com/BAI/ProjectorT-BzggIQ7WkDG24vTFSDswLw7bAtT8yF.mp4",
+            fallbackSrc: "/BAI/ProjectorT.mp4",
             //"/BAI/ProjectorT.mp4",
             start: 100,                // First number (e.g., width)
             end: -125, isVideo: true
@@ -98,6 +100,7 @@ export default function project() {
     const imageArray3 = [
         {
             src: "https://tksoio8smstmaj9d.public.blob.vercel-storage.com/BAI/sculpt0-hIf4dZepKrIyP1fSzbb8tV8AU3u5jx.mp4",
+            fallbackSrc: "/BAI/sculpt0.mp4",
             //"/BAI/sculpt0.mp4",  // Image resource
             start: -280,                // First number (e.g., width)
             end: 225, isVideo: true                  // Second number (e.g., height)
@@ -105,6 +108,7 @@ export default function project() {
         {
             src: "https://tksoio8smstmaj9d.public.blob.vercel-storage.com/BAI/sculpt-8uAEo9GKWtrQH8E0epHqOitWGQtmAS.mp4",
             //"/BAI/sculpt.mp4",
+            fallbackSrc: "/BAI/sculpt.mp4",
             start: 255,                // First number (e.g., width)
             end: -150, isVideo: true
         },
@@ -126,6 +130,7 @@ export default function project() {
         {
             src: "https://tksoio8smstmaj9d.public.blob.vercel-storage.com/BAI/sculpt4-QBHWQGqhNBi9n0ReiP3GxTHtm96vuR.mp4",
             //"/BAI/sculpt4.mp4",
+            fallbackSrc: "/BAI/sculpt4.mp4",
             start: 100,                // First number (e.g., width)
             end: -125, isVideo: true
         }

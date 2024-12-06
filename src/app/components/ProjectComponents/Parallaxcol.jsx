@@ -5,7 +5,7 @@ import { motion, useScroll, useTransform, } from 'framer-motion';
 import Image from 'next/image';
 
 
-const Parallaxcol = ({ src, refence, index, start, end, isVideo }) => {
+const Parallaxcol = ({ src, refence, index, start, end, isVideo , fallbackSrc }) => {
 
 
 
@@ -30,6 +30,7 @@ const Parallaxcol = ({ src, refence, index, start, end, isVideo }) => {
                         className='w-full md:w-3/4'// Ensure z-0 is on the video
                     >
                         <source src={src} type="video/mp4" />
+                        <source src={fallbackSrc} type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
                 ) : (

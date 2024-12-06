@@ -6,14 +6,13 @@ import PNav from "../components/ProjectComponents/PNav";
 import Banner from "../components/ProjectComponents/Banner";
 import Text from "../components/ProjectComponents/Text";
 import ProjectDetails from "../components/ProjectComponents/ProjectDetails";
-import ParallaxGallery from "../components/ProjectComponents/ParallaxGallery";
 import MovingImg from "../components/ProjectComponents/MovingImg";
 import Title from "../components/ProjectComponents/Title";
 import Video from "../components/ProjectComponents/Video";
 import Divider from "../components/Divider";
 import HeadImg from "../components/ProjectComponents/HeadImg";
 import STitle from "../components/ProjectComponents/STitle";
-import Project from "../components/Project";
+
 
 
 export default function project() {
