@@ -39,6 +39,11 @@ const FooterContent = () => {
                                 target="_blank" 
                                 rel="noopener noreferrer"  className="desc-text text-zinc-300  font-light block py-0 pl-3 pr-4 sm:text-xl hover:text-gray-600">Email</Link>
                         </li>
+                        <li>
+                            <Link href="https://github.com/BengiAgcal"
+                                target="_blank" 
+                                rel="noopener noreferrer"  className="desc-text text-zinc-300  font-light block py-0 pl-3 pr-4 sm:text-xl hover:text-gray-600">Github</Link>
+                        </li>
                        
                     </ul>
                 </div>

@@ -49,7 +49,7 @@ const Contact = () => {
                                 Connect!
                             </span>
                         </div>
-                        <div className='grid grid-cols-3 w-auto justify-center md:justify-start items-center text-center mt-4'
+                        <div className='grid grid-cols-4 w-auto justify-center md:justify-start items-center text-center mt-4'
 
                         >
                             <motion.a href='https://www.linkedin.com/in/bengi-agcal/'
@@ -103,6 +103,25 @@ const Contact = () => {
                                 <Image
                                     src="/Instagram.png"
                                     alt="Instagram"
+                                    
+                                    width={75}
+                                    height={75}
+                                    className="object-cover opacity-50 hover:opacity-100"
+                                />
+                            </motion.a>
+                            <motion.a href='https://github.com/BengiAgcal'
+                                variants={fadeInAnimVariants}
+                                initial="initial"
+                                whileInView="animate"
+                                viewport={{ once: true }}
+                                transition={{ delay: 0.15 }}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className='flex justify-center md:justify-start items-center col-span-1 p-2'
+                            >
+                                <Image
+                                    src="/git.png"
+                                    alt="Github"
                                     
                                     width={75}
                                     height={75}
