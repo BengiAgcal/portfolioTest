@@ -17,7 +17,7 @@ const Contact = () => {
     };
 
     return (
-        <section id='contact' className='pt-24 md:pt-48 pb-12'>
+        <section id='contact' className='pt-12 pb-12'>
             <div className="container px-0 py-2">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-2 w-full items-center justify-center">
                     <div className='md:col-span-1 order-last md:order-1'>
@@ -41,7 +41,7 @@ const Contact = () => {
                     </div>
 
                     <div className='md:col-span-1 order-1 md:order-2'>
-                        <div className='big-text2 text-5xl lg:text-8xl text-center md:text-left '>
+                        <div className='big-text2 text-6xl lg:text-8xl text-center md:text-left '>
                             <span className='font-light'>
                                 Let&apos;s <br />
                             </span>

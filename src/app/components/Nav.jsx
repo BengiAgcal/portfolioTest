@@ -44,18 +44,19 @@ const Nav = () => {
                     </div>
                     <div className="menu hidden md:block md:w-auto font-light" id="navbar">
                         <ul className="flex px-4 md:p-0 md:flex-row md:space-x-8">
-                            <li >
-                                <div onClick={() => scrolltoHash('about')} className=" cursor-pointer small-text block py-0 pl-3 pr-4 sm:text-xl hover:text-gray-300">About</div>
-                            </li>
                             <li>
                                 <div onClick={() => scrolltoHash('projects')} className=" cursor-pointer small-text block py-0 pl-3 pr-4 sm:text-xl hover:text-gray-300">Works</div>
                             </li>
                             <li>
                                 <div onClick={() => scrolltoHash('public')} className=" cursor-pointer small-text block py-0 pl-3 pr-4 sm:text-xl hover:text-gray-300">Exhibitions & Publications</div>
                             </li>
+                            <li >
+                                <div onClick={() => scrolltoHash('about')} className=" cursor-pointer small-text block py-0 pl-3 pr-4 sm:text-xl hover:text-gray-300">About</div>
+                            </li>
                             <li>
                                 <div onClick={() => scrolltoHash('contact')} className=" cursor-pointer small-text block py-0 pl-3 pr-4 sm:text-xl hover:text-gray-300">Contact</div>
                             </li>
+                            
                         </ul>
                     </div>
 
@@ -85,14 +86,15 @@ const Nav = () => {
                             }}
                         >
                             <ul className={`absolute flex flex-col space-y-2 p-4  bg-white bg-opacity-90 z-10`}>
-                                <li>
-                                    <div onClick={() => scrolltoHash('about')} className=" cursor-pointer small-text block py-2 px-3 text-xl hover:text-gray-300">About</div>
-                                </li>
+                                
                                 <li>
                                 <div onClick={() => scrolltoHash('projects')} className=" cursor-pointer small-text block py-2 px-3 text-xl hover:text-gray-300">Works</div>
                                 </li>
                                 <li>
                                 <div onClick={() => scrolltoHash('public')} className=" cursor-pointer small-text block py-2 px-3 text-xl hover:text-gray-300">Exhibitions & Publications</div>
+                                </li>
+                                <li>
+                                    <div onClick={() => scrolltoHash('about')} className=" cursor-pointer small-text block py-2 px-3 text-xl hover:text-gray-300">About</div>
                                 </li>
                                 <li>
                                     <div onClick={() => scrolltoHash('contact')} className=" cursor-pointer small-text block py-2 px-3 text-xl hover:text-gray-300">Contact</div>

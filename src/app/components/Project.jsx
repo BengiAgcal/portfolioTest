@@ -38,7 +38,7 @@ const Project = ({ imageSrc, title, subtitle, link, isVideo, className , fallbac
   return (
     <motion.div
       ref={ref}
-      style={{ scale: scale}}
+      style={{ scale: scale}} // scale: scale
       transition={{ duration: 2, ease: "circOut" }}
       className={className}>
       <Link
@@ -69,9 +69,9 @@ const Project = ({ imageSrc, title, subtitle, link, isVideo, className , fallbac
           src={imageSrc} // Pass the image source as a prop
           alt={title} // Use title as alt text for accessibility
           layout="responsive" // This makes the image responsive
-          width={800} // You need a width
-          height={600} // You need a height
-          className="object-cover" // Optional: Adjust object-fit behavior
+          width={1000} // You need a width
+          height={1000} // You need a height
+          className="w-full h-auto" // Optional: Adjust object-fit behavior
           priority
         />
         )}

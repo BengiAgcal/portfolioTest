@@ -5,12 +5,26 @@ import Empty from './Empty';
 const Projects = () => {
     return (
         <section>
-            <h2 className="big-text2 text-5xl md:text-8xl font-medium pt-24  text-center " id="projects" > <span></span>Selected Works</h2>
+            <h2 className="big-text2 text-5xl md:text-8xl font-medium pt-24 text-center " id="projects" > <span></span>Selected Works</h2>
             <div className="container px-0 py-2">
 
 
-                <div className="grid grid-cols-1 md:grid-cols-3 w-full items-center justify-center ">
+                <div className="grid grid-cols-1 md:grid-cols-2 w-full items-center justify-center ">
 
+                    <div className='md:col-span-1 '>
+                        <Project
+                            imageSrc="https://tksoio8smstmaj9d.public.blob.vercel-storage.com/T8C/Deer2-mdv3GAxcZ3snlzdMmjzAdjiFqDqiUq.mp4"
+                            // imageSrc="/T8C/Deer2.mp4"
+                            fallbackSrc="/T8C/Deer2.mp4"
+                            title="The 8th Continent"
+                            subtitle="A video game installation on plastic pollution with participant-created voice recordings (2023)"
+                            link="/Eight"
+                            isVideo={true}
+                            className=" p-8 " // span 1 column
+                        />
+                    </div>
+
+                    <div className='md:col-span-1'>
                     <Project
                         // imageSrc="/BAI/Swim.mp4"
                         fallbackSrc="/BAI/Swim.mp4"
@@ -19,12 +33,8 @@ const Projects = () => {
                         subtitle="3D Animated Projection Mapping Installation (2023-2024)"
                         link="/BAIBAI"
                         isVideo={true}
-                        className="md:col-span-2 md:pb-[15vh]" // span 2 columns on medium screens and up
+                        className=" p-4" // span 2 columns on medium screens and up
                     />
-
-                    {/* Empty slot (to create a gap if needed) */}
-                    <Empty />
-                    <Empty />
                     <Project
                         imageSrc="https://tksoio8smstmaj9d.public.blob.vercel-storage.com/Beaver/dam-PPP2OkjXIzBabUyJEAzbcAksmgBa42.mp4"
                         fallbackSrc="/BVR/dam.mp4"
@@ -33,22 +43,19 @@ const Projects = () => {
                         subtitle="3D Environmental Education Video Game (2023-2024)"
                         link="/Beaver"
                         isVideo={true}
-                        className=" md:col-span-2 pb-0 md:pb-[15vh]" // span 1 column
+                        className=" p-4" // span 1 column
                     />
 
+                    </div>
 
-                    <Project
-                        imageSrc="https://tksoio8smstmaj9d.public.blob.vercel-storage.com/T8C/Deer2-mdv3GAxcZ3snlzdMmjzAdjiFqDqiUq.mp4"
-                        // imageSrc="/T8C/Deer2.mp4"
-                        fallbackSrc="/T8C/Deer2.mp4"
-                        title="The 8th Continent"
-                        subtitle="A video game installation on plastic pollution with participant-created voice recordings (2023)"
-                        link="/Eight"
-                        isVideo={true}
-                        className="md:col-span-2 flex md:pb-[15vh] md:w-3/4 lg:w-4/6 items-center justify-center" // span 1 column
-                    />
-                    <Empty />
-                    <Empty />
+                   
+
+                   
+                    
+
+
+
+                   
 
 
                     <Project
@@ -59,7 +66,7 @@ const Projects = () => {
                         subtitle="3D Physics Simulation, Video Projection on Wooden Plinth (2023)"
                         link="/Here"
                         isVideo={true}
-                        className="md:col-span-2 md:pb-[15vh]" // span 1 column
+                        className="md:col-span-2 md:pb-16 " // span 1 column
                     />
 
                     <Project
@@ -70,7 +77,7 @@ const Projects = () => {
                         subtitle="Mixed Media Interactive Installation: Print, AR, and Found Object (2022)"
                         link="/Bullish"
                         isVideo={true}
-                        className="md:col-span-2 flex md:pb-[15vh] md:w-3/4 lg:w-4/6 items-center justify-center" // span 1 column
+                        className="md:col-span-2 flex md:pb-16 md:w-3/4 lg:w-4/6 items-center justify-center" // span 1 column
                     />
                     <Empty />
                     <Empty />
@@ -82,7 +89,7 @@ const Projects = () => {
                         subtitle="3D Animated Video (2021)"
                         link="/Worth"
                         isVideo={true}
-                        className="md:col-span-2 flex md:pb-[15vh] items-center justify-center" // span 1 column
+                        className="md:col-span-2 flex md:pb-16 items-center justify-center" // span 1 column
                     />
 
                 </div>
@@ -92,3 +99,5 @@ const Projects = () => {
 };
 
 export default Projects;
+
+

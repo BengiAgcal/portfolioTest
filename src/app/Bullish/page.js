@@ -43,7 +43,7 @@ export default function project() {
                         tools={tools}
                         desc={"Mixed Media Interactive Installation: Print, AR, and Found Object"}
                         year={"2022"}
-                        duration={"1 Week"} />
+                        duration={"1.5 Weeks"} />
                     <Divider />
 
                     <div className="md:py-8" />

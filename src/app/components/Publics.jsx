@@ -4,7 +4,7 @@ import Public from './Public'
 const Publics = () => {
     return (
         <section>
-            <h2 id="public" className="big-text text-5xl md:text-7xl font-bold pt-24 pb-12 text-center">Exhibitions & Publications</h2>
+            <h2 id="public" className="big-text2 text-5xl md:text-8xl font-medium pt-24 text-center" >Exhibitions & Publications</h2>
             <div className="container px-0 py-2">
 
                 <Public
@@ -26,7 +26,7 @@ const Publics = () => {
                 <Public
                     imageSrc="/PBL/deer.webp"
                     alt="a Deer"
-                    title=" The 8th Continent - A Participatory Interactive Art and Gaming Experience for Reclaiming Public Screen"
+                    title=" The 8th Continent - A Participatory Interactive Experience for Reclaiming Public Screen"
                     desc="International Symposium on Electronic Art (ISEA) Conference 2024, Short Paper, Brisbane Australia, June 21-29, 2024"
                     link=""
                 />
@@ -48,7 +48,7 @@ const Publics = () => {
                  <Public
                     imageSrc="/PBL/EC.webp"
                     alt="a Deer"
-                    title="The 8th Continent: Echoing the Unheard Sounds of Pollution, a Participatory Immersive Art and Gaming Experience for Public Spaces"
+                    title="The 8th Continent: Echoing the Unheard Sounds of Pollution"
                     desc="GoodIT '23: ACM International Conference on Information Technology for Social Good, Full Paper, Lisbon Portugal, September 6 - 8, 2023"
                     link="https://dl.acm.org/doi/10.1145/3582515.3609571"
                 />
