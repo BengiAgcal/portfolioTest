@@ -50,7 +50,7 @@ export default function project() {
                         tools={tools}
                         desc={"A video game installation on plastic pollution with participant-created voice recordings. Developed for Canada’s highest-resolution 3D, VR-ready wall"}
                         year={"2023"}
-                        duration={"1.5 months"} />
+                        duration={"3 months"} />
                     <Divider />
                     <div className="md:py-8" />
                     <div className="grid grid-cols-1 md:grid-cols-2 px-0 py-8 ">
