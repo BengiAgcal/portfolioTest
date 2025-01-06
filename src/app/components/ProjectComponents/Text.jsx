@@ -9,7 +9,7 @@ const Text = ( {text}) => {
              >
 
             
-            <p className="small-text font-thin text-xl md:text-2xl">
+            <p className="small-text font-thin text-sm md:text-base lg:text-xl whitespace-break-spaces">
                {text}
             </p>
             </div>

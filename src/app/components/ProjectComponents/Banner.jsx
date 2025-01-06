@@ -22,7 +22,7 @@ const Banner = ({Title}) => {
 
     return (
         <div>
-            <div className=" relative w-full h-[120px] lg:h-[200px] overflow-hidden">
+            <div className=" relative w-full h-[70px] md:h-[120px] xl:h-[200px] overflow-hidden">
                 {/* 3. Using framer motion */}
                 <motion.div
                     className="absolute whitespace-nowrap"
@@ -30,7 +30,7 @@ const Banner = ({Title}) => {
                     //animate="animate"
                     whileInView="animate"
                 >
-                    <h1 className="big-text text-8xl md:text-9xl xl:text-[200px] text-center ">
+                    <h1 className="big-text text-7xl md:text-9xl xl:text-[200px] text-center ">
                         {Title} {Title} {Title} {Title} {Title} {Title} {Title} {Title} {Title} {Title} {Title} {Title}
                         {Title} {Title} {Title} {Title} {Title} {Title} {Title} {Title} {Title} {Title} {Title} {Title}
                         {Title} {Title} {Title} {Title} {Title} {Title} {Title} {Title} {Title} {Title} {Title} {Title}

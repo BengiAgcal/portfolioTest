@@ -17,7 +17,7 @@ export default function Home() {
     <ReactLenis root>
       <link rel="icon" href="/favicon.png" />
       <main className=" bg-grain flex min-h-screen flex-col bg-[#fff] ">
-        <div className="container m-auto px-6 md:px-12 py-0 lg:px-24">
+        <div className="container m-auto px-6 lg:px-12 py-0">
 
           <HeroSection />
           <div className="py-6 sm:py-10 lg:py-0" />
